@@ -1991,3 +1991,13 @@ span.border.two:after {
 .clearfix {
     display: none
 }
+
+.col-md-7 h6 {
+    color: white
+}
+
+ul.address {
+    margin-top: 2em;
+    border-top: none;
+    padding-top: 0.5em;
+}
