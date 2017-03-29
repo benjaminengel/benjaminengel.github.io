@@ -2001,3 +2001,16 @@ ul.address {
     border-top: none;
     padding-top: 0.5em;
 }
+
+.fa-github {
+    font-size: 30px;
+    color: #00a78e;
+}
+.fa-envelope{
+    font-size: 30px;
+    color: #00a78e;
+}
+.fa-pencil-square-o{
+      font-size: 30px;
+    color: #00a78e;  
+}
