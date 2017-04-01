@@ -1095,7 +1095,7 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
       color: #00a78e;
 }
 .contact-grid1-left1 ul{
-	padding:0;
+	padding:2em;
 }
 .contact-grid1-left1 ul li {
     list-style-type: none;
@@ -1988,9 +1988,9 @@ span.border.two:after {
                 line-height:70px;
 }
 
-.clearfix {
+/*.clearfix {
     display: none
-}
+}*/
 
 .col-md-7 h6 {
     color: white
@@ -2013,4 +2013,14 @@ ul.address {
 .fa-pencil-square-o{
       font-size: 30px;
     color: #00a78e;  
+}
+
+.contact-grid1-left1 h4
+{
+    color: black
+}
+
+.contact-grid1-left1 i
+{
+    color: black
 }
