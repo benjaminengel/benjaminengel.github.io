@@ -2024,3 +2024,82 @@ ul.address {
 {
     color: black
 }
+
+.w3-agileits-info {
+    margin-top: 4em;
+}
+
+
+
+
+/*-- experience --*/
+.experience-grids {
+    width: 100%;
+    margin: 0 auto;
+}
+.experience-left {
+    width: 25%;
+	float:left;
+    background: #00a78e;
+    text-align: center;
+    padding: 2em 0;
+    border: 2px solid #00a78e;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	transition: .5s all;
+	-o-transition: .5s all;
+	-ms-transition: .5s all;
+} 
+.experience-right {
+    float: right;
+    width: 75%;
+    border: 1px solid #00a78e;
+    padding: 2em 4em;
+}
+.experience-left h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-family: 'Text Me One', sans-serif;
+}
+.experience-right p {
+    color: #464646;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.experience-right ul {
+    color: #464646;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.experience-right li {
+    color: #464646;
+    line-height: 30px;
+    font-size: 14px;
+}
+.experience-left h5 {
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 1em;
+    font-family: 'Text Me One', sans-serif;
+    font-weight: bold;
+}
+.experience-right h4 {
+    font-size: 1.6em;
+    color: #00a78e;
+    margin-bottom: 0.5em;
+    font-family: 'Text Me One', sans-serif;
+    font-weight: bold;
+}
+.experience-grids:hover .experience-left {
+    background: #000;
+    border:2px solid #000;
+} 
+.experience-left h3 span {
+    font-size: .5em;
+    font-weight: 300;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+/*-- //experience --*/
