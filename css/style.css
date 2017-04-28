@@ -2057,14 +2057,23 @@ ul.address {
     padding: 2em 4em;
 }
 .experience-left h3 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #fff;
-    font-family: 'Text Me One', sans-serif;
+    font-family: 'Asap', sans-serif;
+    font-weight:600;
+    //font-family: 'Text Me One', sans-serif;
 }
 .experience-right p {
-    color: #464646;
-    line-height: 30px;
-    font-size: 14px;
+    
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0;
+    color: #777;
+    line-height: 1.9em;
+
+    //color: #464646;
+    //line-height: 30px;
+    //font-size: 14px;
 }
 
 .experience-right ul {
@@ -2086,11 +2095,13 @@ ul.address {
     font-weight: bold;
 }
 .experience-right h4 {
-    font-size: 1.6em;
+    font-size: 1em;
     color: #00a78e;
     margin-bottom: 0.5em;
-    font-family: 'Text Me One', sans-serif;
-    font-weight: bold;
+    font-weight: 600;
+    font-family: 'Asap', sans-serif;
+    //font-family: 'Text Me One', sans-serif;
+    //font-weight: bold;
 }
 .experience-grids:hover .experience-left {
     background: #000;
