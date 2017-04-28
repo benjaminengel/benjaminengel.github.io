@@ -2038,7 +2038,7 @@ ul.address {
     margin: 0 auto;
 }
 .experience-left {
-    width: 40%;
+    width: 50%;
 	float:initial;
     background: #00a78e;
     text-align: center;
@@ -2052,7 +2052,7 @@ ul.address {
 } 
 .experience-right {
     float: initial;
-    width: 75%;
+    width: 100%;
     border: 1px solid #00a78e;
     padding: 2em 4em;
 }
