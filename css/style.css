@@ -2039,7 +2039,7 @@ ul.address {
 }
 .experience-left {
     width: 30%;
-	float:center;
+	float:initial;
     background: #00a78e;
     text-align: center;
     padding: 2em 0;
@@ -2137,14 +2137,48 @@ ul.address {
   }
     
     
-.timeline-panel {
-  width: calc( 100% - 75px );
-    float: right;
+.timeline-panel-title {
+  width: 30%;
+    float: initail; 
     border: 1px solid #d4d4d4;
      padding: 15px 15px;
-    position: relative;
+     position: initial; 
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+      background: #00a78e;
+	  border-bottom: 5px solid #00a78e;
+}
+    .timeline-panel-title > h3{
+            font-size: 1.2em;
+    color: #fff;
+    font-family: 'Asap', sans-serif;
+    font-weight:600;
+    }
+    
+.timeline-panel-item {
+  width: 50%;
+    float: initail; 
+    border: 1px solid #d4d4d4;
+     padding: 15px 15px;
+     position: initial; 
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
       background: #fff;
 	  border-bottom: 5px solid #00a78e;
 }
+
+    .timeline-panel-item > p {
+            font-size: 0.9em;
+    margin: 0;
+    padding: 0;
+    color: #777;
+    line-height: 1.9em;
+    }
+    
+    .timeline-panel-item > h4 {
+            font-size: 1em;
+    color: #00a78e;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    font-family: 'Asap', sans-serif;
+    }
