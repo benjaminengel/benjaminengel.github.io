@@ -2127,6 +2127,8 @@ ul.address {
 
 .contact-list-element {
 	  display: inline-block;
+    padding-left: 5em;
+    padding-right: 5em;
 	  width: 50%;
   }
 
@@ -2184,3 +2186,4 @@ ul.address {
     font-weight: 600;
     font-family: 'Asap', sans-serif;
     }
+    
