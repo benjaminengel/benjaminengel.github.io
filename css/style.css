@@ -2038,7 +2038,7 @@ ul.address {
     margin: 0 auto;
 }
 .experience-left {
-    width: 80%;
+    width: 30%;
 	float:center;
     background: #00a78e;
     text-align: center;
@@ -2052,7 +2052,7 @@ ul.address {
 } 
 .experience-right {
     float: initial;
-    width: 100%;
+    width: 50%;
     border: 1px solid #00a78e;
     padding: 2em 4em;
       -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -2135,3 +2135,16 @@ ul.address {
 	.contact-list-element {
     width: 33%;
   }
+    
+    
+.timeline-panel {
+  width: calc( 100% - 75px );
+    float: right;
+    border: 1px solid #d4d4d4;
+     padding: 15px 15px;
+    position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+      background: #fff;
+	  border-bottom: 5px solid #00a78e;
+}
