@@ -2138,7 +2138,7 @@ ul.address {
     
     
 .timeline-panel-title {
-  width: 50%;
+  width: 30%;
     float: initial; 
     border: 1px solid #d4d4d4;
      padding: 15px 15px;
@@ -2147,12 +2147,14 @@ ul.address {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
       background: #00a78e;
 	  border-bottom: 5px solid #00a78e;
+    margin-top: 1em;
 }
     .timeline-panel-title > h3{
             font-size: 1.2em;
     color: #fff;
     font-family: 'Asap', sans-serif;
     font-weight:600;
+        text-align: center;
     }
     
 .timeline-panel-item {
