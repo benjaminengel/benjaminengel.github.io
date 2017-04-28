@@ -2038,8 +2038,8 @@ ul.address {
     margin: 0 auto;
 }
 .experience-left {
-    width: 50%;
-	float:initial;
+    width: 80%;
+	float:center;
     background: #00a78e;
     text-align: center;
     padding: 2em 0;
@@ -2055,6 +2055,10 @@ ul.address {
     width: 100%;
     border: 1px solid #00a78e;
     padding: 2em 4em;
+      -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+      background: #fff;
+	  border-bottom: 5px solid #00a78e;
 }
 .experience-left h3 {
     font-size: 1.2em;
