@@ -2103,3 +2103,20 @@ ul.address {
     margin-left: 5px;
 }
 /*-- //experience --*/
+
+.contact-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-list-element {
+	  display: inline-block;
+	  width: 50%;
+  }
+
+@media screen and (min-width: 20em) {
+  
+	.contact-list-element {
+    width: 33%;
+  }
