@@ -1088,7 +1088,7 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
     padding: 2em;
     border-bottom: 1px ridge rgb(214, 212, 212);
     background:#fff;
-    text-align: center;
+    text-align: center !important;
 }
 .contact-grid1-left1 span {
     font-size: 1.5em;
@@ -2185,5 +2185,6 @@ ul.address {
     margin-bottom: 0.5em;
     font-weight: 600;
     font-family: 'Asap', sans-serif;
+        text-align: center !important;
     }
     
