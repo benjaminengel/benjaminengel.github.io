@@ -2138,8 +2138,8 @@ ul.address {
     
     
 .timeline-panel-title {
-  width: 30%;
-    float: initail; 
+  width: 50%;
+    float: initial; 
     border: 1px solid #d4d4d4;
      padding: 15px 15px;
      position: initial; 
@@ -2156,8 +2156,8 @@ ul.address {
     }
     
 .timeline-panel-item {
-  width: 50%;
-    float: initail; 
+  width: 80%;
+    float: initial; 
     border: 1px solid #d4d4d4;
      padding: 15px 15px;
      position: initial; 
