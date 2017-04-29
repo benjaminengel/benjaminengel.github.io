@@ -2188,3 +2188,12 @@ ul.address {
         text-align: center ! important;
     }
     
+    .fa-2x {
+  font-size: 2em !important;}
+
+.fa-3x {
+  font-size: 3em !important;}
+    
+    .fa-lg {
+        font-size: 1.5em !important;
+    }
