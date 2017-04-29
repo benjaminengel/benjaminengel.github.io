@@ -1088,7 +1088,7 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
     padding: 2em;
     border-bottom: 1px ridge rgb(214, 212, 212);
     background:#fff;
-    text-align: center !important;
+    text-align: center;
 }
 .contact-grid1-left1 span {
     font-size: 1.5em;
@@ -2179,12 +2179,12 @@ ul.address {
     line-height: 1.9em;
     }
     
-    .timeline-panel-item > h4 {
+    .timeline-panel-item ul li h4 {
             font-size: 1em;
     color: #00a78e;
     margin-bottom: 0.5em;
     font-weight: 600;
     font-family: 'Asap', sans-serif;
-        text-align: center !important;
+        text-align: center ! important;
     }
     
