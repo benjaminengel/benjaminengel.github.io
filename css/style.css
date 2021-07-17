@@ -205,6 +205,7 @@ ul.address-text b {
     color:#fff;
 }
 /*--social-icons--*/
+
 ul.social-icons{
 	    display: block;
     padding: 0;
@@ -218,7 +219,7 @@ ul.social-icons{
     margin-right: 1%;
 }
 .social-icons li a{  
-    background: url(../images/social-icons2.png) no-repeat 3px 3px;
+    /*background: url(../images/social-icons2.png) no-repeat 3px 3px;*/
     display: block;
     height: 32px;
     width: 32px;
@@ -226,30 +227,28 @@ ul.social-icons{
 	-webkit-transition: .5s all;
     transition: .5s all;
     -moz-transition: .5s all;
+	text-decoration: none;
 }
 .social-icons li a:before {
-	content: '';
+	/*content: '';*/
+	padding:0.2em 0.1em 0.1em 0.1em;
+	color:#FFF;
     display: block;
     height: 32px;
     width: 32px;
        border: 2px solid #fff;
+	/*
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	-ms-transform: rotate(45deg); 
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);	
+	*/
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.social-icons li a.fb{
-	background-position: 3px -30px;
-}
-.social-icons li a.in{
-      background-position: 3px -62px;
-}
-.social-icons li a.dott {
-background-position: 3px -94px;
-}
+
 .social-icons li a:hover::before {
+	padding:0.2em 0.1em 0.1em 0.1em;
     border-color: #00a78e;
 	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
