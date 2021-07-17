@@ -6,15 +6,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE HTML>
 <html>
-    <!-- awesome fonts -->
+<!-- awesome fonts -->
 <script src="https://use.fontawesome.com/3cf87e709b.js"></script>
-    <!-- math ajax -->
+<!-- math ajax -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
 
-    
+
 <head>
     <link rel="icon" href="https://benjaminengel.github.io/favicon.png" type="image/x-png" />
     <!-- thanks to  Maxim Basinski for the icon. -->
@@ -38,8 +38,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
     <script type="text/javascript">
-        jQuery(document).ready(function($) {
-            $(".scroll").click(function(event) {
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
                 event.preventDefault();
                 $('html,body').animate({
                     scrollTop: $(this.hash).offset().top
@@ -73,21 +73,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     <li><a class="scroll" data-hover="About" href="#about">About</a></li>
                                     <li><a class="scroll" data-hover="Services" href="#services">Services</a></li>
                                     <li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
-                                    <li><a class="scroll" data-hover="Publications" href="#publications">Publications</a></li>
+                                    <li><a class="scroll" data-hover="Publications"
+                                            href="#publications">Publications</a></li>
                                     <li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
-                                    <!--
-								<li><a class="scroll" data-hover="Portfolio" href="#port">Portfolio</a></li>
-								
-								<li><a class="scroll" data-hover="Blog" href="#blogs">Blog</a></li>
-								
-								
-								-->
                                 </ul>
                             </nav>
                             <!-- script-for-menu -->
                             <script>
-                                $("span.menu").click(function() {
-                                    $("ul.nav1").slideToggle(300, function() {
+                                $("span.menu").click(function () {
+                                    $("ul.nav1").slideToggle(300, function () {
                                         // Animation complete.
                                     });
                                 });
@@ -101,64 +95,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="banner-info">
                     <div class="col-md-7 header-right">
-
-                        <h1>ME</h1>
-                        <h6>Ben Engel,</h6>
-                        <h6>Data Scientist & Mathematician</h6>
-
-                        <ul class="address">
-                            <ul class="address-text">
-                            </ul>
-
+                        <h1>
+                           <p>Hi, I'm Ben Engel,</p>
+                           <p>and I have a background in mathematics and computer science.</p>
+                           <p>I've started my journey as a data scientist with a passion for data and AI.</p>
+                           <p>I've worked in many on-premise and cloud projects across various industries, from automotive to health care.</p>
+                           <p>During this project, I've identified business opportunities with my client and solved them in a data-driven way.</p>
+                           <p>Furthermore, I've built data lakes, ETL processes, train models, dashboards and integrated solutions into business processes.</p>
+                           <p>Besides these technical aspects, I've communicated my and the results of my team to product owners and stakeholders and used 
+                               their feedback to deliver value-driven increments.</p>
+                        </h1>
                     </div>
-                    <!--
-				<div class="col-md-5 header-left">
-					<img src="images/img1.jpg" alt="">
-				</div>
-               
-				<div class="clearfix"> </div>
-					 -->
+
                 </div>
             </div>
         </div>
     </div>
     <!-- about -->
     <div id="about" class="about">
-        <div class="col-md-6 about-left">
-            <div id="owl-demo1" class="owl-carousel owl-carousel2">
-                <!--
-					                <div class="item">
-					                	<div class="about-left-grid">
-											<h2>Hi! I'm <span>Rob Lee</span></h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.</p>
-											<ul>
-												<li><a class="a-btn-a scroll" href="#port">My Work</a></li>
-												<li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
-											</ul>
-										</div>
-					                -->
-                <div class="item">
-                    <div class="about-left-grid">
-                        <h2>Hi! I'm <span>BEN ENGEL</span></h2>
-                        <p>Working as a data scientist since 2017. My mathematical background and passion for Linux are helping me in my daily bussines to see the entire picture from data gathering over deployment to maintaining services to add buissnes value for my customer. I had the opportunity in my past to dig into the entire data flow pipeline from scraping, data preprocessing to data analysis, modeling and dashboarding. Besides this core topics I've been also envolved in configuration, deployment and agile software development in my projects.  </p>
-                        <!--
-                        <ul>
-                            <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
-                        </ul>
-                        -->
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 about-right">
-
-        </div>
         <div class="clearfix"> </div>
         <link href="css/owl.carousel.css" rel="stylesheet">
         <script src="js/owl.carousel.js"></script>
         <script>
-            $(document).ready(function() {
+            $(document).ready(function () {
                 $("#owl-demo1").owlCarousel({
                     items: 1,
                     lazyLoad: false,
@@ -172,7 +131,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </script>
         <!-- Feedback -->
         <script>
-            $(document).ready(function() {
+            $(document).ready(function () {
                 $("#owl-demo3").owlCarousel({
                     items: 1,
                     lazyLoad: false,
@@ -185,12 +144,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
         </script>
     </div>
-    <!-- /about -->
     <!-- services -->
     <div id="services" class="services">
         <div class="container">
             <div class="service-head one text-center">
-                <h4>WHAT I DO</h4>
                 <h3>MY <span>SERVICES</span></h3>
                 <span class="border one"></span>
             </div>
@@ -204,7 +161,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div class="col-xs-8 wthree_about_right_grid_right">
                         <h4>Data Science</h4>
-                        <p>Use modern scientific and computational approaches to gain inside into your data. See the hole picture throu new data sources and correlation of all necessary angels, tear down data silos! And enhance the communication for a better and more efficiant daily bussines. </p>
+                        <p>Use modern scientific and computational approaches to gain inside into your data. See the
+                            hole picture throu new data sources and correlation of all necessary angels, tear down data
+                            silos! And enhance the communication for a better and more efficiant daily bussines. </p>
                     </div>
                     <div class="clearfix"> </div>
                 </div>
@@ -216,7 +175,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div class="col-xs-8 wthree_about_right_grid_right">
                         <h4>DevOp</h4>
-                        <p>Develop and deploy your systems faster at scale and in a reproducable way. Deployment and configuration automation do not know a limit. Gain more time for bussines tasks and a way for easyer bug tracking, today.</p>
+                        <p>Develop and deploy your systems faster at scale and in a reproducable way. Deployment and
+                            configuration automation do not know a limit. Gain more time for bussines tasks and a way
+                            for easyer bug tracking, today.</p>
                     </div>
                     <div class="clearfix"> </div>
                 </div>
@@ -231,7 +192,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div class="col-xs-8 wthree_about_right_grid_right">
                         <h4>Analysis</h4>
-                        <p>Take a deep dive throu your data regardeless of it's size and shape to model bussines logic and gain inside to optimise your business even further with machine learning and statistics.</p>
+                        <p>Take a deep dive throu your data regardeless of it's size and shape to model bussines logic
+                            and gain inside to optimise your business even further with machine learning and statistics.
+                        </p>
                     </div>
                     <div class="clearfix"> </div>
                 </div>
@@ -243,7 +206,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div class="col-xs-8 wthree_about_right_grid_right">
                         <h4>Coding</h4>
-                        <p>Tailor solutions to your individual needs in Python, Java, R or any other needed programming language.</p>
+                        <p>Tailor solutions to your individual needs in Python, Java, R or any other needed programming
+                            language.</p>
                     </div>
                     <div class="clearfix"> </div>
                 </div>
@@ -262,79 +226,95 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="container">
                     <!-- <div class="col-md-12 w3-agileits-info" id="workexperience"> -->
 
-                        <div data-brackets-id="928" class="service-head text-center">
-                            <h4 data-brackets-id="929">WHAT I DID</h4>
-                            <h3 data-brackets-id="930">MY <span data-brackets-id="931">EXPERIENCE</span></h3>
-                            <span data-brackets-id="932" class="border one"></span>
-                            <br>
+                    <div data-brackets-id="928" class="service-head text-center">
+                        <h3 data-brackets-id="930"><span data-brackets-id="931">PROJECTS</span></h3>
+                        <span data-brackets-id="932" class="border one"></span>
+                        <br>
+                    </div>
+
+                    <div class="experience-grids">
+                        <div class="timeline-panel-title">
+                            <h3>2018 - NOW</h3>
+                        </div>
+                        <div class="timeline-panel-item">
+                            <h4> System Vertrieb Alexander GmbH: Consultant for Big Data/Analytics & IOT</h4>
+
+                            <p>As Consultant and Data Scientist at SVA I developed various workshops on big data
+                                technologies and data science topics. Besides that I've implemented solutions data
+                                science solutions for customers and designed show cases for SVA. I adapted DevOp
+                                procedures to develop in a reproducable maner and deploy my work in a reliable and
+                                reproducable way. Besides my strong python knowlage I've learned to work with several
+                                big data and DevOp technologies like Kafka, ansible, MapR, Splunk and many more.</p>
+
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+
+                    <div class="experience-grids">
+                        <div class="timeline-panel-title">
+                            <h3>2017 - 2018</h3>
+                        </div>
+                        <div class="timeline-panel-item">
+                            <h4>Krier Information: Data Scientist</h4>
+
+                            <p>As Data Scientist at KI I developed a data driven software components for our customers
+                                as well as buld and maintained various data pipelines. Besides that I've ported one of
+                                our ussines solutions to in docker to make it flexible and portable for demos. In
+                                additon I've designed and implemented a system, with Keras and Tensorflow, for feature
+                                extraction from images with a human feedback loop. </p>
+
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="experience-grids experience-grids-btm">
+                        <div class="timeline-panel-title">
+                            <h3>2017</h3>
+                        </div>
+                        <div class="timeline-panel-item">
+                            <h4>EventZebra: Data Scientist &amp; Developer</h4>
+                            <p>
+                                As part of the core research and development team I aggregated data via scrapingand and
+                                performed various data and text mining tasks on them. Furthermore did research and
+                                imprementation of an recommender system prototype with an API. I also build up of an
+                                containerized Linux software stack, for greater flexebility and scalability.
+                            </p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="experience-grids w3-agileits">
+                        <div class="timeline-panel-title">
+                            <h3>2007 - 2014</h3>
+                        </div>
+                        <div class="timeline-panel-item">
+                            <h4>Private Tutor</h4>
+
+                            <p>As a private tutor I teached individual and small groups of students in analysis I + II,
+                                geometry I + II, ordinary differential equations on a regular bases and teached crash
+                                courses in these subjects. Besides that, I offered final thesis coaching and assistance
+                                for $\LaTeX$. </p>
+
                         </div>
 
-			<div class="experience-grids">
-                            <div class="timeline-panel-title">
-                                <h3>2018 - NOW</h3>
-                            </div>
-                            <div class="timeline-panel-item">
-                                <h4> System Vertrieb Alexander GmbH: Consultant for Big Data/Analytics & IOT</h4>
-                                
-                                <p>As Consultant and Data Scientist at SVA I developed various workshops on big data technologies and data science topics. Besides that I've implemented solutions data science solutions for customers and designed show cases for SVA. I adapted DevOp procedures to develop in a reproducable maner and deploy my work in a reliable and reproducable way. Besides my strong python knowlage I've learned to work with several big data and DevOp technologies like Kafka, ansible, MapR, Splunk and many more.</p>
-                               
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-			
-                        <div class="experience-grids">
-                            <div class="timeline-panel-title">
-                                <h3>2017 - 2018</h3>
-                            </div>
-                            <div class="timeline-panel-item">
-                                <h4>Krier Information: Data Scientist</h4>
-                                
-                                <p>As Data Scientist at KI I developed a data driven software components for our customers as well as buld and maintained various data pipelines. Besides that I've ported one of our ussines solutions to in docker to make it flexible and portable for demos. In additon I've designed and implemented a system, with Keras and Tensorflow, for feature extraction from images with a human feedback loop. </p>
-                               
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                        <div class="experience-grids experience-grids-btm">
-                            <div class="timeline-panel-title">
-                                <h3>2017</h3>
-                            </div>
-                            <div class="timeline-panel-item">
-                                <h4>EventZebra: Data Scientist &amp; Developer</h4>
-                                <p>
-                                    As part of the core research and development team I aggregated data via scrapingand and performed various data and text mining tasks on them. Furthermore did research and imprementation of an recommender system prototype with an API. I also build up of an containerized Linux software stack, for greater flexebility and scalability.
-                                </p>                                 
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                        <div class="experience-grids w3-agileits">
-                            <div class="timeline-panel-title">
-                                <h3>2007 - 2014</h3>
-                            </div>
-                            <div class="timeline-panel-item">
-                                <h4>Private Tutor</h4>
-                                
-                                <p>As a private tutor I teached individual and small groups of students in analysis I + II, geometry I + II, ordinary differential equations on a regular bases and teached crash courses in these subjects. Besides that, I offered final thesis coaching and assistance for $\LaTeX$. </p>
-                                
-                            </div>
+                        <div class="clearfix"> </div>
+                    </div>
 
-                            <div class="clearfix"> </div>
+                    <div class="experience-grids w3-agileits">
+                        <div class="timeline-panel-title">
+                            <h3>2004 - 2007</h3>
+                        </div>
+                        <div class="timeline-panel-item">
+                            <h4>Private Tutor</h4>
+
+
+                            <p> As a private tutor I teached individual and small groups of A level students in
+                                mathematics and physics in order to prepare them for regular and final exams. I also
+                                teached crash courses in these subjects. </p>
+
+
                         </div>
 
-                        <div class="experience-grids w3-agileits">
-                            <div class="timeline-panel-title">
-                                <h3>2004 - 2007</h3>
-                            </div>
-                            <div class="timeline-panel-item">
-                                <h4>Private Tutor</h4>
-                                
-                                
-                                <p> As a private tutor I teached individual and small groups of A level students in mathematics and physics in order to prepare them for regular and final exams. I also teached crash courses in these subjects. </p>
-                                
-                                
-                            </div>
-
-                            <div class="clearfix"> </div>
-                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
 
                     <!-- </div> -->
                 </div>
@@ -345,311 +325,66 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div id="publications" class="publications">
         <div class="container">
             <div class="service-head text-center">
-                <h4>WHAT I WROTE</h4>
-                <h3>MY <span>PUBLICATIONS</span></h3>
+                <h3><span>PUBLICATIONS AND TALKS</span></h3>
                 <span class="border one"></span>
             </div>
             <div class="time-main w3l-agile">
 
+                <ul class="col-md-6 timeline">
 
-            
-
-                    <ul class="col-md-6 timeline">
-
-                        <li>
-                            <div class="timeline-badge info"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="timeline-title"> 2014: <a href="https://arxiv.org/abs/1412.4603">Log-concavity of the overpartition function</a></h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>We prove that the overpartition function $\overline{p}(n)$ is $\log$-concave for
-all $n \ge 2.$ The proof is based on Sills Rademacher type series for $\overline{p}(n)$ and
-inspired by DeSalvo and Pak’s proof for the partition function.</p>
-                                </div>
+                    <li>
+                        <div class="timeline-badge info"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title"> 2021: GTC21 E32757 – Accelerating Anomaly Detection</h4>
                             </div>
-                        </li>
-
-                        
-               
-            </div>
-
-        </div>
-        <!--//work-experience-->
-
-        <!-- portfolio -->
-        <!--
-<div class="portfolio" id="port">
-				<div class="service-head text-center">
-						<h4>MY WORKS</h4>
-						<h3>MY <span>PORTFOLIO</span></h3>
-						<span class="border"></span>
-					</div>
-			<div class="portfolio-grids">
-				<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-				<script type="text/javascript">
-									$(document).ready(function () {
-										$('#horizontalTab').easyResponsiveTabs({
-											type: 'default', //Types: default, vertical, accordion           
-											width: 'auto', //auto or any width like 600px
-											fit: true   // 100% fit in a container
-										});
-									});
-									
-				</script>
-				<div class="sap_tabs">
-					<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-						<ul class="resp-tabs-list">
-							<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>ALL</span></li> 
-							<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>WEB DESIGN</span></li> 
-							<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>MOBILE UI</span></li> 				
-							<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>ILLUSTRATIONS</span></li> 
-						</ul>				  	 
-						<div class="resp-tabs-container">
-							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
-								<div class="col-md-3 team-gd ">
-									
-										<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic4.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd ">
-									
-										<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic5.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd ">
-									
-										<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic9.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd ">
-								
-										<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic6.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd yes_marg ">
-									
-										<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd yes_marg ">
-									
-										<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd yes_marg ">
-									
-										<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.jpg" alt="">
-										
-										</a>
-								
-								</div>
-								<div class="col-md-3 team-gd yes_marg ">
-									
-										<a href="#portfolioModal8" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic14.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-								<div class="col-md-3 team-gd ">
-									<div class="thumb">
-										<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt="">
-										
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 team-gd  ">
-									<div class="thumb">
-										<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt="">
-										
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 team-gd ">
-									
-										<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-								<div class="col-md-3 team-gd ">
-									
-										<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic9.jpg" alt="">
-										
-										</a>
-								
-								</div>
-								<div class="col-md-3 team-gd ">
-									
-										<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic6.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd">
-									
-										<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd">
-									
-										<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt="">
-									
-										</a>
-									
-								</div>
-								<div class="clearfix"></div>
-							</div>
-								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
-								<div class="col-md-3 team-gd ">
-									
-										<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd">
-									
-										<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="col-md-3 team-gd ">
-									
-										<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.jpg" alt="">
-										
-										</a>
-									
-								</div>
-								<div class="clearfix"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-	</div>
-	-->
-        <!-- //portfolio -->
-        <!-- top-grids -->
-
-        <!--
-				<div class="blog" id="blogs">
-					<div class="container">
-						<div class="service-head text-center">
-						<h4>BLOGS</h4>
-						<h3>MY <span>BLOGS</span></h3>
-						<span class="border one"></span>
-					</div>
-					   <div class="news-grid w3l-agile">
-					    <div class="col-md-6 news-img">
-						  <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/b1.jpg" alt=" " class="img-responsive"></a>
-						 
-						</div>
-					    <div class="col-md-6 news-text">
-						   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">HERE GOES AN AWESOME BLOG TITLE</a></h3>
-							<ul class="news">
-								<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
-								<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
-								<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
-								<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
-							</ul>
-							<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
-							<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a>
-					
-						</div>
-		
-						<div class="clearfix"></div>
-					 </div>
-					  <div class="news-grid">
-
-					    <div class="col-md-6 news-text two">
-						   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">HERE GOES AN AWESOME BLOG TITLE</a></h3>
-							<ul class="news">
-								<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
-								<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
-								<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
-								<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
-							</ul>
-							<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
-								<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a>
-					
-						</div>
-						<div class="col-md-6 news-img two">
-						   <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/b2.jpg" alt=" " class="img-responsive"></a>
-						 
-						</div>
-						<div class="clearfix"></div>
-					 </div>
-					  <div class="news-grid">
-					    <div class="col-md-6 news-img">
-						  <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/b3.jpg" alt=" " class="img-responsive"></a>
-						 
-						</div>
-					    <div class="col-md-6 news-text">
-						   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">HERE GOES AN AWESOME BLOG TITLE</a></h3>
-							<ul class="news">
-								<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
-								<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
-								<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
-								<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
-							</ul>
-							<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
-							<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a>
-					
-						</div>
-		
-						<div class="clearfix"></div>
-					 </div>
-					</div>
-				</div>
-				<!-- top-grids -->
-
-        <!-- /blog-pop-->
-        <div class="modal ab fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog about" role="document">
-                <div class="modal-content about">
-                    <div class="modal-header">
-                        <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body about">
-                        <div class="about">
-
-                            <div class="about-inner">
-
-                                <img src="images/b3.jpg" alt="about" />
-                                <h4 class="tittle">A Fews words about us</h4>
-                                <p>Lorem ipsum dolor sit amet Integer gravida,Lorem ipsum dolor sit amet Integer gravida velit,Ming sits in the corner the whole day. She's into crochet. quis dolor tristiqumsan.Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. velit quis dolor tristiqumsan.</p>
-                                <p>Lorem ipsum dolor sit amet. Integer gravida velit quis dolor tristiqumsan.anteposuerit litterarum formas humanitatis per seacula amet Integer gravida velit. </p>
+                            <div class="timeline-body">
+                                <p>Accelerate your anomaly detection pipeline from days to minutes by identifying 
+                                    bottlenecks and addressing them with appropriate architectural changes. 
+                                    Or why GPU's are faster than a compute cluster and hands-on example where 
+                                    Nvidia RAPIDS can help to speed up your preprocessing.</p>
                             </div>
-
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </li>
 
-        <!-- //blog-pop-->
+
+                    <li>
+                        <div class="timeline-badge info"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title"> 2021: Rock Your Data - Predictive Maintenance und KI in der Fertigung</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>We talk about best practices from various predictive maintenance projects and demonstrate best practices and 
+                                    procedures to guide these projects to success. We'll talk about how we've helped clients to 
+                                    identify and prioritize use-cases, implemented them and how we build a feedback loop with the 
+                                    maintenance personnel on the shop floor.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="timeline-badge info"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title"> 2014: <a
+                                        href="https://arxiv.org/abs/1412.4603">Log-concavity of the overpartition
+                                        function</a></h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>We prove that the overpartition function $\overline{p}(n)$ is $\log$-concave for
+                                    all $n \ge 2.$ The proof is based on Sills Rademacher type series for
+                                    $\overline{p}(n)$ and
+                                    inspired by DeSalvo and Pak’s proof for the partition function.</p>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+            </div>
+
+        </div>
 
         <!-- /header -->
         <div class="footer" id="contact">
@@ -657,300 +392,64 @@ inspired by DeSalvo and Pak’s proof for the partition function.</p>
             <div class="container">
 
                 <div class="service-head one text-center">
-                    <h4>CONTACT ME</h4>
-                    <h3>GET <span>IN TOUCH WITH ME</span></h3>
+                    <h3><span>GET IN TOUCH</span></h3>
                     <span class="border two"></span>
                 </div>
                 <div class="mail_us">
 
-
-                    <div class="mail_us">
                         <div class="col-md-12 mail_left">
                             <div class="contact-grid1-left">
                                 <div class="contact-grid1-left1">
                                     <ul class="contact-list">
 
                                         <li class="contact-list-element">
-                                            <a>
-                                                <script type="text/javascript" language="javascript">
-                                                    
-                                                    // Email obfuscator script 2.1 by Tim Williams, University of Arizona
-                                                    // Random encryption key feature coded by Andrew Moulden
-                                                    // This code is freeware provided these four comment lines remain intact
-                                                    // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-                                                    {
-                                                        coded = "O6KOD.7O652HZ6@K2HZD.Wi2"
-                                                        key = "fPcl63zkxrpjhmt7waGgYeZCy9WDNS18EdQ5o2UXFHnKJOvBAMVR0bLTqsuIi4"
-                                                        shift = coded.length
-                                                        link = ""
-                                                        for (i = 0; i < coded.length; i++) {
-                                                            if (key.indexOf(coded.charAt(i)) == -1) {
-                                                                ltr = coded.charAt(i)
-                                                                link += (ltr)
-                                                            } else {
-                                                                ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
-                                                                link += (key.charAt(ltr))
-                                                            }
-                                                        }
-                                                        document.write("<a href='mailto:" + link + "'><span><i class='fa fa-envelope-o fa-lg' aria-hidden='true'></i> </span></a>")
-                                                        
-                                                    }
-                                                    
-                                                    
-                                                </script><noscript>Sorry, you need Javascript on to email me.</noscript>
+                                            <a href="https://github.com/benjaminengel">
+                                                <span><i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                                                </span>
                                             </a>
                                         </li>
-
 
 
                                         <li class="contact-list-element">
-                                            <a href="https://github.com/benjaminengel">
-                                                                                        <span><i class="fa fa-github fa-2x" aria-hidden="true"></i> 
-                                                </span>
-                                            <!--<h4>
-                                                Find me <br> on Github
-                                            </h4>-->
-                                            </a>
-                                        </li>
-
-
-                                                                                <li class="contact-list-element">
                                             <a href="https://gitlab.com/engel.benjamin">
-                                                                                        <span><i class="fa fa-gitlab fa-lg" aria-hidden="true"></i> </span>
-                                            <!--<h4>
-                                                Find me <br> on GitLab
-                                            </h4>-->
+                                                <span><i class="fa fa-gitlab fa-lg" aria-hidden="true"></i> </span>
                                             </a>
                                         </li>
-                                        
-                                        
+
+
                                         <li class="contact-list-element">
                                             <a href="https://arxiv.org/find/math/1/au:+Engel_B/0/1/0/all/0/1">
-                                                                                        <h4>ARXIV</h4>
-                        <!--<i class="fa fa-pencil-square-o" aria-hidden="true"></i>-->
-                                          <!--  <h4>
-                                                Find me <br> on ARXIV
-                                            </h4>-->
+                                                <h4><b>ARXIV</b></h4>
                                             </a>
                                         </li>
-                                    </ul>    
-                                </div>                                
+
+                                        <li class="contact-list-element">
+                                            <a href="https://www.xing.com/profile/Benjamin_Engel19">
+                                                <span><i class="fa fa-xing fa-lg" aria-hidden="true"></i></span>
+                                            </a>
+                                        </li>
+
+                                        <li class="contact-list-element">
+                                            <a href="https://www.linkedin.com/in/ben-engel-91a9741a6">
+                                                <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
+
                         <div class="clearfix"></div>
                     </div>
 
                     <div class="copy_right text-center">
-                        <p>&copy; 2016 Preface . All rights reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts.</a></p>
+                        <p>&copy; 2016 Preface . All rights reserved | Design by <a href="http://w3layouts.com/"
+                                target="_blank">W3layouts.</a></p>
 
                     </div>
                 </div>
 
             </div>
-            <!-- //footer -->
-            <!-- /container -->
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content port-modal">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <div class="modal-body">
-                                    <h3>Image-Title</h3>
-                                    <img src="images/pic4.jpg" class="img-responsive img-centered" alt="">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content port-modal">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <div class="modal-body">
-                                    <h3>Image-Title</h3>
-                                    <img src="images/pic9.jpg" class="img-responsive img-centered" alt="">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content port-modal">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <div class="modal-body">
-                                    <h3>Image-Title</h3>
-                                    <img src="images/pic5.jpg" class="img-responsive img-centered" alt="">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content port-modal">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <div class="modal-body">
-                                    <h3>Image-Title</h3>
-                                    <img src="images/pic6.jpg" class="img-responsive img-centered" alt="">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content port-modal">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <div class="modal-body">
-                                    <h3>Image-Title</h3>
-                                    <img src="images/pic10.jpg" class="img-responsive img-centered" alt="">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content port-modal">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <div class="modal-body">
-                                    <h3>Image-Title</h3>
-                                    <img src="images/pic11.jpg" class="img-responsive img-centered" alt="">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content port-modal">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <div class="modal-body">
-                                    <h3>Image-Title</h3>
-                                    <img src="images/pic13.jpg" class="img-responsive img-centered" alt="">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content port-modal">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <div class="modal-body">
-                                    <h3>Image-Title</h3>
-                                    <img src="images/pic14.jpg" class="img-responsive img-centered" alt="">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content port-modal">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <div class="modal-body">
-                                    <img src="images/pic1.jpg" class="img-responsive img-centered" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-            <!--start-smooth-scrolling-->
-            <script type="text/javascript">
-                $(document).ready(function() {
-                    /*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-
-                    $().UItoTop({
-                        easingType: 'easeOutQuart'
-                    });
-
-                });
-
-            </script>
-            <!--end-smooth-scrolling-->
-            <!-- //for bootstrap working -->
-            <script src="js/bootstrap.js"></script>
-
 
 </body>
 
